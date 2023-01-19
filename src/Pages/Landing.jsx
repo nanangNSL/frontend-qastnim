@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 import { Table, Space, Modal, Form, Input } from "antd";
 import axios from "axios";
 import * as Constans from "../Constans"
-const { Search } = Input;
 
 export default function Landing() {
   // eslint-disable-next-line no-unused-vars
@@ -132,13 +131,6 @@ export default function Landing() {
       <Container fluid className="border">
         <Row className="d-flex flex-row justify-content-center">
           <h1 className="text-crud ">CRUD BARANG</h1>
-          <Search
-      placeholder="input search text"
-      allowClear
-      enterButton="Search"
-      size="large"
-    //   onSearch={onSearch}
-    />
           <Col className="p-2">
 
           <Table
